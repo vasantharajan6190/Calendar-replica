@@ -1,6 +1,5 @@
 import React,{createContext, useState,useContext, useEffect} from 'react'
 import {Switch,Route, useHistory} from 'react-router-dom'
-import Login from "./components/login/login"
 import Homepage from "./components/Homepage/Homepage"
 import Index_page from "./components/Indexpage/Index"
 export const context = createContext()
@@ -36,7 +35,6 @@ function App(){
         <React.Fragment>
         <Switch>
         <Route path="/homepage" exact component={Homepage}/>
-        <Route path="/login" exact component={Login}/>
         <Route path="/" exact component={Index_page}/>
         </Switch>
         </React.Fragment>

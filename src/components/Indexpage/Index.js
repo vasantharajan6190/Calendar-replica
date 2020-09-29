@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from "react"
 import {useHistory} from 'react-router-dom'
 import {context} from "../../app"
 import {GoogleLogin} from 'react-google-login';
-import "./Index.css"
 function Index_page(){
     const main = useContext(context)
     const history = useHistory()

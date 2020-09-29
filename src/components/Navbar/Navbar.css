@@ -1,0 +1,87 @@
+.calendarfont{
+    font-size:22px;
+    padding-left:8px;
+    padding-top:11px;
+    font-family: 'Open Sans', sans-serif;
+    color:#5f6368;
+}
+.fa-bars:hover{
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.todaytext{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 5px 12px;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: .25px;
+    font-weight: 600;
+    text-transform: none;
+    opacity: 1;
+    color: #3c4043
+}
+.todaytext:hover{
+background-color: rgb(247, 245, 245);
+cursor: pointer;
+}
+
+.faarrow:hover{
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+    border-radius:50%;
+}
+.month-year{
+    margin-top: 14px;
+    margin-left:9px;
+    color: #3c4043;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+}
+.month_text{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 5px 12px;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: .25px;
+    font-weight: 600;
+    text-transform: none;
+    opacity: 1;
+    color: #3c4043
+}
+.month_text:hover{
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+}
+.fa-question-circle-o:hover{
+    border-radius: 50%;
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+} 
+.fa-cog:hover{
+    border-radius: 50%;
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+} .fa-th:hover{
+    border-radius: 50%;
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+}
+.fa-search:hover{
+    border-radius: 50%;
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+}
+.user_photo:hover{
+    cursor: pointer;
+    background-color:azure;
+}
